@@ -3,7 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio - João Silva</title>
+    <title>Meu Portfólio - Yasmin Pellicer</title>
+    
+
+    <!-- public/index.html -->
+<body>
+  <div id="root"></div>
+</body>
+
     
     <!-- Bootstrap CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
@@ -12,6 +19,12 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     
+    
+   
+
+    <a href="https://github.com/seuusuario/repositorio" target="_blank" class="btn-project">...</a>
+
+
     <style>
         :root {
             --primary-color: #2c3e50;
@@ -35,7 +48,7 @@
 
         /* Navbar Styles */
         .navbar {
-            background: rgba(44, 62, 80, 0.95) !important;
+            background: rgba(156, 64, 231, 0.863) !important;
             backdrop-filter: blur(10px);
             transition: all 0.3s ease;
         }
@@ -89,8 +102,32 @@
             border-radius: 50%;
             border: 5px solid var(--text-light);
             box-shadow: 0 20px 40px rgba(0,0,0,0.3);
-            transition: transform 0.3s ease;
-        }
+            transition: transform 0.3s ease;        
+            object-fit: cover;
+            
+         
+            
+
+            }
+
+            .avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+ 
+  background-size: cover;
+  background-position: center;
+  border: 5px solid var(--text-light);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+            
+
+
+
+
+        
 
         .avatar:hover {
             transform: scale(1.05);
@@ -194,6 +231,18 @@
             font-size: 3rem;
         }
 
+        
+
+
+        
+        :root {
+  --primary-color: #6a0dad;         /* Roxo escuro */
+  --secondary-color: #9b59b6;       /* Roxo médio */
+  --accent-color: #c084fc;          /* Roxo claro */
+  --text-light: #ffffff;            /* Mantém texto claro */
+  --text-dark: #1e1e1e;             /* Ou escuro, dependendo do fundo */
+}
+ 
         .project-content {
             padding: 30px;
         }
@@ -270,8 +319,10 @@
 
         .form-control:focus {
             border-color: var(--secondary-color);
-            box-shadow: 0 0 0 0.2rem rgba(52, 152, 219, 0.25);
+            box-shadow: 0 0 0 0.2rem rgba(99, 38, 180, 0.25);
         }
+
+        
 
         .btn-contact {
             background: var(--secondary-color);
@@ -387,9 +438,17 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 hero-content text-center text-lg-start">
-                    <img src="https://via.placeholder.com/200x200/3498db/ffffff?text=JS" alt="Avatar" class="avatar mb-4">
-                    <h1 class="hero-title">João Silva</h1>
-                    <p class="hero-subtitle">Desenvolvedor Front-end & Designer UI/UX</p>
+                    <img src=" foto de perfil porti.png" alt="Foto de Perfil" style="width:150px; border-radius: 50%;">
+                    <style>
+                        
+                    </style>
+                    <h1 class="hero-title">Yasmin Pellicer</h1>
+                    <p class="hero-subtitle">• Desenvolvedora 
+                        • Analista de Sistemas 
+                        • Apaixonada por Tecnologia 
+                        • Estudante de ADS 
+
+                    </p>
                 </div>
                 <div class="col-lg-6 text-center">
                     <div class="hero-animation">
@@ -407,9 +466,10 @@
             <div class="row">
                 <div class="col-lg-8 mx-auto fade-in-on-scroll">
                     <p class="lead text-center mb-5">
-                        Sou um desenvolvedor front-end apaixonado por criar experiências digitais incríveis. 
-                        Com sólida experiência em tecnologias modernas, busco sempre entregar soluções 
-                        inovadoras e funcionais.
+                        ✨ Olá! Sejam bem vindos ao meu portfólio!
+Me chamo Yasmin Pellicer, sou natural de SP-Santana de Parnaíba,
+e sou apaixonada por tecnologia. Estou sempre em busca de novos aprendizados, desafios e oportunidades que me ajudem a crescer como profissional. Acredito no poder da tecnologia para transformar
+ ideias em impacto real — e é isso que me motiva todos os dias.✨
                     </p>
                     
                     <h4 class="mb-4 text-center">Habilidades Técnicas</h4>
@@ -417,10 +477,7 @@
                         <span class="skill-badge"><i class="fab fa-html5 me-2"></i>HTML5</span>
                         <span class="skill-badge"><i class="fab fa-css3-alt me-2"></i>CSS3</span>
                         <span class="skill-badge"><i class="fab fa-js-square me-2"></i>JavaScript</span>
-                        <span class="skill-badge"><i class="fab fa-bootstrap me-2"></i>Bootstrap</span>
-                        <span class="skill-badge"><i class="fab fa-react me-2"></i>React</span>
-                        <span class="skill-badge"><i class="fab fa-git-alt me-2"></i>Git</span>
-                        <span class="skill-badge"><i class="fab fa-figma me-2"></i>Figma</span>
+                        <span class="skill-badge"><i class="fab fa-bootstrap me-2"></i>Python</span>
                         <span class="skill-badge"><i class="fas fa-database me-2"></i>SQL</span>
                     </div>
                 </div>
@@ -436,13 +493,14 @@
                 <div class="col-lg-6 fade-in-on-scroll">
                     <div class="project-card">
                         <div class="project-image">
-                            <i class="fas fa-shopping-cart"></i>
+                            <i class="fas fa-whiskey-glass"></i>
+
                         </div>
                         <div class="project-content">
-                            <h3 class="project-title">E-commerce Responsivo</h3>
+                            <h3 class="project-title">Landing-page refrigerante 🍹</h3>
                             <p class="mb-4">
-                                Loja virtual completa desenvolvida com HTML, CSS, JavaScript e Bootstrap. 
-                                Inclui carrinho de compras, filtros de produtos e design responsivo.
+                                Pagina interfacial desenvolvida com HTML, CSS, JavaScript e Node.js
+                                Inclui interaçoes , filtros de refrigerantes e design responsivo.
                             </p>
                             <a href="#" class="btn-project me-3">
                                 <i class="fas fa-eye me-2"></i>Ver Demo
@@ -457,13 +515,13 @@
                 <div class="col-lg-6 fade-in-on-scroll">
                     <div class="project-card">
                         <div class="project-image">
-                            <i class="fas fa-tasks"></i>
+                           <i class="fa-solid fa-coins"></i>
                         </div>
                         <div class="project-content">
-                            <h3 class="project-title">App de Tarefas</h3>
+                            <h3 class="project-title">Rastreador de criptomoedas 💵</h3>
                             <p class="mb-4">
-                                Aplicação de produtividade para gerenciamento de tarefas com funcionalidades 
-                                de adicionar, editar, excluir e marcar como concluídas.
+                                
+                                Sistema de criptomoedas, visualização em tempo real de cada valor das moedas 
                             </p>
                             <a href="#" class="btn-project me-3">
                                 <i class="fas fa-eye me-2"></i>Ver Demo
@@ -488,7 +546,7 @@
                         <div class="partner-logo">
                             <i class="fas fa-university"></i>
                         </div>
-                        <h4>Universidade XYZ</h4>
+                        <h4>Faculdade Anhanguera 👩‍🎓</h4>
                         <p>Instituição de ensino onde desenvolvo projetos acadêmicos e colaboro em pesquisas tecnológicas.</p>
                     </div>
                 </div>
@@ -498,8 +556,8 @@
                         <div class="partner-logo">
                             <i class="fas fa-users"></i>
                         </div>
-                        <h4>Dev Community</h4>
-                        <p>Comunidade de desenvolvedores onde compartilho conhecimentos e colaboro em projetos open source.</p>
+                        <h4>Udemy 📚</h4>
+                        <p>A Udemy é uma plataforma de aprendizagem online que oferece uma vasta diversidade de cursos sobre praticamente qualquer assunto imaginável.</p>
                     </div>
                 </div>
                 
@@ -507,9 +565,9 @@
                     <div class="partner-card">
                         <div class="partner-logo">
                             <i class="fas fa-building"></i>
-                        </div>
-                        <h4>Tech Startup</h4>
-                        <p>Startup de tecnologia onde atuo como freelancer desenvolvendo soluções web inovadoras.</p>
+                        </div> 
+                        <h4>Dev Community 👩‍💻</h4>
+                        <p>Comunidade de desenvolvedores onde compartilho conhecimentos</p>
                     </div>
                 </div>
             </div>
@@ -519,7 +577,7 @@
     <!-- Contact Section -->
     <section id="contato" class="section">
         <div class="container">
-            <h2 class="section-title fade-in-on-scroll">Contato</h2>
+            <h2 class="section-title fade-in-on-scroll">Contato 📲</h2>
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <div class="contact-form fade-in-on-scroll">
@@ -541,7 +599,7 @@
                     </div>
                     
                     <div class="social-links fade-in-on-scroll">
-                        <h4 class="mb-4">Conecte-se Comigo</h4>
+                        <h4 class="mb-4"> Conecte-se Comigo 🌐 </h4>
                         <a href="#" class="social-link">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
@@ -563,7 +621,7 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 João Silva. Todos os direitos reservados.</p>
+            <p>&copy; 2025 Yasmin Pellicer. Todos os direitos reservados.</p>
             <p>Desenvolvido com <i class="fas fa-heart text-danger"></i> e muito <i class="fas fa-coffee"></i></p>
         </div>
     </footer>
@@ -660,7 +718,7 @@
             setTimeout(() => {
                 const heroTitle = document.querySelector('.hero-title');
                 if (heroTitle) {
-                    typeWriter(heroTitle, 'João Silva', 150);
+                    typeWriter(heroTitle, 'Yasmin Pellicer', 150);
                 }
             }, 1500);
         });
@@ -691,3 +749,13 @@
     </script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
